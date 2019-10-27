@@ -5,7 +5,7 @@ import CustomButton from '../custom-button/CustomButton'
 
 import { auth, createUserProfileDocument } from '../../firebase/firebase.utils'
 
-import './SingUp.scss'
+import './SignUp.scss'
 
 class SignUp extends Component {
   constructor(props) {
@@ -88,7 +88,7 @@ class SignUp extends Component {
           />
           <FormInput
             type='password'
-            name='confirmPassford'
+            name='confirmPassword'
             value={confirmPassword}
             handleChange={this.handleChange}
             label='Confirm Password'
